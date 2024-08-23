@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6", // ou "es2020", "es2022", etc.
+        "module": "esnext", // Para suporte a módulos ES
+        "checkJs": true, // Habilita a verificação em arquivos JS
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src/**/*"
+    ], // Incluir arquivos JS no projeto
+    "exclude": [
+        "node_modules"
+    ]
+}
